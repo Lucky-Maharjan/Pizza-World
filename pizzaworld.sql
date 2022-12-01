@@ -301,9 +301,9 @@ CREATE TABLE `shop` (
 --
 
 INSERT INTO `shop` (`s_id`, `s_username`, `s_pwd`, `s_name`, `s_location`, `s_openhour`, `s_closehour`, `s_status`, `s_preorderStatus`, `s_email`, `s_phoneno`, `s_pic`) VALUES
-(1, 'sec', '123', 'Engineering', 'Unit #2', '07:30:00', '14:30:00', 1, 1, 'sec@gmail.com', '0900001234', 'shop1.jpeg'),
-(2, 'sit', '123', 'Institute', 'Unit #1', '08:00:00', '17:30:00', 1, 1, 'sit@gmail.com', '0900000002', NULL),
-(3, 'siddha', '123', 'Medical', 'Unit #3', '08:30:00', '16:00:00', 1, 1, 'siddha@gmail.com', '0901234567', 'shop3.jpg');
+(1, 'sec', '123', 'Pizza World - Kumaripati', 'Kumaripati', '07:30:00', '14:30:00', 1, 1, 'sec@gmail.com', '0900001234', 'shop1.jpeg'),
+(2, 'sit', '123', 'Pizza World - Baneshwor', 'Baneshwor', '08:00:00', '17:30:00', 1, 1, 'sit@gmail.com', '0900000002', shop1.jpeg),
+(3, 'siddha', '123', 'Pizza World - Thimi', 'Thimi', '08:30:00', '16:00:00', 1, 1, 'siddha@gmail.com', '0901234567', 'shop3.jpg');
 
 --
 -- Indexes for dumped tables
